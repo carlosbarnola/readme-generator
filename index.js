@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 const { writeFile } = require('./utils/generate-file.js')
+
 // TODO: Create an array of questions for user input
 const questions = () => {
     
@@ -75,7 +76,7 @@ const questions = () => {
         {
             type: 'confirm',
             name: 'confirmTest',
-            message: 'Would you like to enter some information about yourself for an "About" section?',
+            message: 'Would you like to enter some information about testing you project?',
             default: true
         },
         {
@@ -95,6 +96,16 @@ const questions = () => {
             name: 'license',
             message: 'Choose license for your project',
             choices: ['Boost', 'IBM', 'MIT']
+        },
+        {
+            type: 'input',
+            name: 'userGitHub',
+            message: 'Please enter your GitHub username',
+        },
+        {
+            type: 'input',
+            name: 'userEmail',
+            message: 'Please enter your email',  
         }
     ])
 };

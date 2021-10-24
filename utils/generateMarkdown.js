@@ -29,15 +29,15 @@ function generateMarkdown(data) {
     ## Usage
     ${data.projectUsage}
     ## Contributing
-    ${data.projectContributing}
+    ${data.projectContribution}
     ## Tests
-    ${data.projectTests}
+    ${data.projectTest}
     ## License
     ${renderLicenseSection(data.license)}
     
     ## Questions
-    https://github.com/${data.github}
-    Please email ${data.email} for questions.
+    https://github.com/${data.userGitHub}
+    Please email ${data.userEmail} for questions.
   `;
 }
 
