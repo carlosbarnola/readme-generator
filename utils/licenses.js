@@ -1,8 +1,8 @@
 const licenseBadge = (data) => {
     if (data == 'MIT') {
-      return'(https://img.shields.io/badge/License-MIT-yellow.svg)'
+      return'[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]'
     } else if (data == 'IBM') {
-      return '(https://img.shields.io/badge/License-IPL%201.0-blue.svg)'
+      return '[![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)]'
     } 
       return ''
     
