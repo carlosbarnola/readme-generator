@@ -19,9 +19,9 @@ const licenseLink = (data) => {
 
 const licenseSection = (data) => {
     if (data == 'MIT') {
-        return '(https://opensource.org/licenses/MIT)'
+        return 'Licensed under the ' + '[MIT](https://opensource.org/licenses/MIT) ' + ' license'
     } else if (data == 'IBM') { 
-        return '(https://opensource.org/licenses/IPL-1.0)'
+        return 'Licensed under the ' + '[IBM](https://opensource.org/licenses/IPL-1.0)' + ' license'
     }
         return ''
 }
