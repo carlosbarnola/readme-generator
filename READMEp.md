@@ -1,5 +1,5 @@
 
-    # a [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)] (https://opensource.org/licenses/MIT)
+    # a [![License: IPL 1.0](https://img.shields.io/badge/License-IPL%201.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
     ## Table of Contents
     1. [Description](#Description)
     2. [Installation](#Installation)
@@ -19,7 +19,7 @@
     ## Tests
     undefined
     ## License
-    (https://opensource.org/licenses/MIT)
+    (https://opensource.org/licenses/IPL-1.0)
     
     ## Questions
     https://github.com/a

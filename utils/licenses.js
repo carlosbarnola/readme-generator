@@ -11,7 +11,7 @@ const licenseBadge = (data) => {
 const licenseLink = (data) => {
     if (data == 'MIT') {
         return '(https://opensource.org/licenses/MIT)'
-    } else if (data == 'IMB') { 
+    } else if (data == 'IBM') { 
         return '(https://opensource.org/licenses/IPL-1.0)'
     }
         return ''
@@ -20,7 +20,7 @@ const licenseLink = (data) => {
 const licenseSection = (data) => {
     if (data == 'MIT') {
         return '(https://opensource.org/licenses/MIT)'
-    } else if (data == 'IMB') { 
+    } else if (data == 'IBM') { 
         return '(https://opensource.org/licenses/IPL-1.0)'
     }
         return ''
