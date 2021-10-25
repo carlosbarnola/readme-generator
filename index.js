@@ -74,19 +74,14 @@ const questions = () => {
             }
         },
         {
-            type: 'confirm',
-            name: 'confirmTest',
-            message: 'Would you like to enter some information about testing you project?',
-            default: true
-        },
-        {
             type: 'input',
             name: 'projectTest',
-            message: 'Provide instructions  (Required)',
-            when: ({confirmTest}) => {
-                if (confirmTest) {
+            message: 'Provide instructions about testing you project (Required)',
+            validate: testInput => {
+                if (testInput) {
                     return true;
                 } else {
+                    console.log('Please provide isntructions for testing')
                     return false;
                 }
             }
