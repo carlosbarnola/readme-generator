@@ -14,6 +14,7 @@
   You will need to clone this repository in your computer, then you can run this app in the CLI
   ## Usage
   Using the CLI run the code '$ node index' to start the app, then answer the questions that are prompted. This will generate your README.md file
+  https://drive.google.com/file/d/18ikhITEzGezN4LGXt61ePJB6Gt4RE2Dt/view
   ## Contributing
   Clone repo and create a new branch. Make changes and test. Submit Pull Request with comprehensive description of the changes
   ## Tests
